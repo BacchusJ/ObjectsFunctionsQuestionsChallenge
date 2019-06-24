@@ -69,11 +69,6 @@ questions[n].checkAnswer(answer);
 
 
 (function () {
-
-
-
-})()
-    
     function Question(question, answers, correct) {
         this.question = question;
         this.answers = answers;
@@ -168,3 +163,4 @@ questions[n].checkAnswer(answer);
 
     nextQuestion();
 
+})()
